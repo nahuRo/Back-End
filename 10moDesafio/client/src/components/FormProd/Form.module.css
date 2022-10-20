@@ -1,0 +1,7 @@
+.container {
+	background-color: rgb(150, 126, 28);
+	padding: 1rem;
+}
+.table tbody tr th img {
+	width: 300px;
+}
