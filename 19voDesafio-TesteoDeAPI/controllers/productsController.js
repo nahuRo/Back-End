@@ -4,7 +4,7 @@ import cotizador from "../database/clases/Cotizador.js";
 import { loggerArchivoE } from "../utils/logger.js";
 import { config } from "../utils/config.js";
 
-const Cart = new CartDAO();
+const Cart = CartDAO.getIntance();
 const Cotizador = new cotizador();
 
 // nodemailer
@@ -22,7 +22,7 @@ const newProducts = (prod) => {
 
 		return new ProductDTO(product, currencies);
 	});
-	return productsDTO;
+	res.json(productsDTO);
 };
 
 export const getAllProducts = async (req, res) => {
@@ -32,7 +32,7 @@ export const getAllProducts = async (req, res) => {
 
 		const productsDTO = newProducts(products);
 
-		res.render("products", { productsDTO });
+		res.json(productsDTO);
 	} catch (error) {
 		loggerArchivoE.error(error);
 	}

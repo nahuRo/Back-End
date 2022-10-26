@@ -8,7 +8,7 @@ const myPORT = Number(process.argv[2]) || 8080;
 
 export const getInfo = (req, res) => {
 	try {
-		res.json({
+		res.render("info", {
 			argumentsEntri: myPORT, // puerto
 			systemName: process.platform,
 			nodeV: process.version,
@@ -26,7 +26,7 @@ export const getInfo = (req, res) => {
 
 export const getInfoGzip = (req, res) => {
 	try {
-		res.json({
+		res.render("info", {
 			argumentsEntri: myPORT, // puerto
 			systemName: process.platform,
 			nodeV: process.version,

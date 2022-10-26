@@ -2,6 +2,8 @@ import CustomError from "../clases/CustomError.js";
 import Cart from "../models/cartModel.js";
 import MongoClient from "../clases/MongoClient.class.js";
 
+let intanceDAO;
+
 class CartDAO {
 	constructor() {
 		this.db = new MongoClient();
@@ -63,6 +65,13 @@ class CartDAO {
 		} catch (error) {
 			console.log(`Hubo un error en - deleteById: ${error}`);
 		}
+	}
+
+	static getIntance() {
+		if (!intanceDAO) {
+			intanceDAO = new CartDAO();
+		}
+		return intanceDAO;
 	}
 }
 
