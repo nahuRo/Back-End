@@ -1,17 +1,16 @@
 import mongoose from "mongoose";
 
-const cartSchema = new mongoose.Schema(
+export const cartSchema = new mongoose.Schema(
 	{
+		tittle: { type: String, required: true },
 		products: [
 			{
-				tittle: { type: String, required: true, unique: false },
+				tittle: { type: String, required: true },
 				price: { type: Number, required: true },
 				thumbnail: { type: String, required: true },
-				descripcion: { type: String, required: true },
+				description: { type: String, required: true },
 				stock: { type: Number, required: true },
 				codeBar: { type: Number, required: true },
-				ARS: { type: String, required: true },
-				CLP: { type: String, required: true },
 			},
 			{
 				timestamps: true,
@@ -25,6 +24,6 @@ const cartSchema = new mongoose.Schema(
 	}
 );
 
-const Cart = mongoose.model("Cart", cartSchema);
+const Cart = mongoose.model("cart", cartSchema);
 
 export default Cart;

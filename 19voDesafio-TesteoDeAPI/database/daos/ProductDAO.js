@@ -1,15 +1,15 @@
 import CustomError from "../clases/CustomError.js";
-import Cart from "../models/cartModel.js";
+import Prod from "../models/prodModel.js";
 
-class CartDAO {
+class ProdDAO {
 	constructor() {
-		this.collection = Cart;
+		this.collection = Prod;
 	}
 
-	async create() {
+	async create(object) {
+		console.log(object);
 		try {
-			const item = new this.collection();
-
+			const item = new this.collection(object);
 			return await item.save();
 		} catch (error) {
 			console.log(error);
@@ -18,12 +18,9 @@ class CartDAO {
 		}
 	}
 
-	async getByIdCart(id) {
+	async getAll() {
 		try {
-			if (id.length === 12 || id.length === 24) {
-				return await this.collection.findOne({ _id: id });
-			}
-			return null;
+			return await this.collection.find();
 		} catch (error) {
 			console.log(error);
 
@@ -31,12 +28,9 @@ class CartDAO {
 		}
 	}
 
-	async updateCart(id, obj) {
+	async update(idProd, obj) {
 		try {
-			const upgraded = await this.collection.findOneAndUpdate(
-				{ _id: id },
-				{ _id: id, products: obj }
-			);
+			const upgraded = await this.collection.findOneAndUpdate({ _id: idProd }, obj);
 			return upgraded;
 		} catch (error) {
 			console.log(error);
@@ -45,13 +39,15 @@ class CartDAO {
 		}
 	}
 
-	async deleteByIdCart(id) {
+	async deleteById(idProd) {
 		try {
-			return await this.collection.deleteOne({ _id: id });
+			const borrado = await this.collection.deleteOne({ _id: idProd });
+
+			return borrado;
 		} catch (error) {
 			console.log(`Hubo un error en - deleteById: ${error}`);
 		}
 	}
 }
 
-export default CartDAO;
+export default ProdDAO;

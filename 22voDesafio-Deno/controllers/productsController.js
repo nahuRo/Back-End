@@ -22,7 +22,7 @@ const newProducts = (prod) => {
 
 		return new ProductDTO(product, currencies);
 	});
-	res.json(productsDTO);
+	return productsDTO;
 };
 
 export const getAllProducts = async (req, res) => {
@@ -32,7 +32,7 @@ export const getAllProducts = async (req, res) => {
 
 		const productsDTO = newProducts(products);
 
-		res.json(productsDTO);
+		res.render("products", { productsDTO });
 	} catch (error) {
 		loggerArchivoE.error(error);
 	}
