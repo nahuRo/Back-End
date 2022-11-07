@@ -1,0 +1,26 @@
+### Crea un carrito y devuelve su id.
+POST http://localhost:8080/Api/cart
+
+### Me permite listar todos los productos guardados en el carrito
+GET http://localhost:8080/Api/cart/44123/products
+
+### Vacía un carrito y lo elimina.
+DELETE http://localhost:8080/Api/cart/63s5c2a14646e3ba4ab8
+
+### Para incorporar productos al carrito por su id de producto
+POST http://localhost:8080/Api/cart/635c2eccaa0959b4ced6b26d/products
+Content-Type: application/json
+
+{
+    "tittle": "1Prod",
+    "price": "1000",
+    "thumbnail": "https://images.unsplash.com/photo-1556906781-9a412961c28c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "descripcion": "Zapatillas",
+    "stock": "9"
+}
+
+
+//
+
+### Eliminar un producto del carrito por su id de carrito y de producto
+DELETE http://localhost:8080/Api/carrito/635c2eccaa0959b4ced6b26d/products/635c6a3111ab1c815d199fe7ds

@@ -88,3 +88,127 @@
     at Array.map (<anonymous>)
     at Proxy.methods.<computed> (C:\Users\Usuario\Desktop\backend-main\18voDesafio-MejorarAquitectura\node_modules\mongoose\lib\types\array\methods\index.js:956:24)
     at getAllProducts (file:///C:/Users/Usuario/Desktop/backend-main/18voDesafio-MejorarAquitectura/controllers/productsController.js:13:32)
+[2022-10-26T18:38:20.090] [ERROR] archivoError - ReferenceError: res is not defined
+    at newProducts (file:///C:/Users/Usuario/Desktop/Back-End/19voDesafio-TesteoDeAPI/controllers/productsController.js:25:2)
+    at getAllProducts (file:///C:/Users/Usuario/Desktop/Back-End/19voDesafio-TesteoDeAPI/controllers/productsController.js:33:23)
+[2022-10-26T18:43:40.630] [ERROR] archivoError - ReferenceError: res is not defined
+    at newProducts (file:///C:/Users/Usuario/Desktop/Back-End/19voDesafio-TesteoDeAPI/controllers/productsController.js:25:2)
+    at getAllProducts (file:///C:/Users/Usuario/Desktop/Back-End/19voDesafio-TesteoDeAPI/controllers/productsController.js:33:23)
+[2022-10-27T15:22:32.511] [ERROR] archivoError - CustomError { statusCode: 500, message: 'getAll user' }
+[2022-10-27T15:22:32.512] [ERROR] archivoError - CustomError { statusCode: 500, message: 'getAll user' }
+[2022-10-27T15:22:32.513] [ERROR] archivoError - CustomError { statusCode: 500, message: 'getAll user' }
+[2022-10-27T15:22:32.513] [ERROR] archivoError - CustomError { statusCode: 500, message: 'getAll user' }
+[2022-10-27T15:22:32.513] [ERROR] archivoError - CustomError { statusCode: 500, message: 'getAll user' }
+[2022-10-27T15:22:32.513] [ERROR] archivoError - CustomError { statusCode: 500, message: 'getAll user' }
+[2022-10-27T15:22:32.513] [ERROR] archivoError - CustomError { statusCode: 500, message: 'getAll user' }
+[2022-10-27T15:22:32.513] [ERROR] archivoError - CustomError { statusCode: 500, message: 'getAll user' }
+[2022-10-27T15:22:32.513] [ERROR] archivoError - CustomError { statusCode: 500, message: 'getAll user' }
+[2022-10-27T15:22:32.513] [ERROR] archivoError - CustomError { statusCode: 500, message: 'getAll user' }
+[2022-10-27T15:22:32.514] [ERROR] archivoError - CustomError { statusCode: 500, message: 'getAll user' }
+[2022-10-27T15:22:32.514] [ERROR] archivoError - CustomError { statusCode: 500, message: 'getAll user' }
+[2022-10-27T15:22:32.514] [ERROR] archivoError - CustomError { statusCode: 500, message: 'getAll user' }
+[2022-10-27T15:22:32.514] [ERROR] archivoError - CustomError { statusCode: 500, message: 'getAll user' }
+[2022-10-27T15:22:32.514] [ERROR] archivoError - CustomError { statusCode: 500, message: 'getAll user' }
+[2022-10-27T15:22:32.514] [ERROR] archivoError - CustomError { statusCode: 500, message: 'getAll user' }
+[2022-10-27T15:22:32.514] [ERROR] archivoError - CustomError { statusCode: 500, message: 'getAll user' }
+[2022-10-27T15:22:32.515] [ERROR] archivoError - CustomError { statusCode: 500, message: 'getAll user' }
+[2022-10-27T19:14:33.134] [ERROR] archivoError - Error: No default engine was specified and no extension was provided.
+    at new View (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\view.js:61:11)
+    at Function.render (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\response.js:1039:7)
+    at getProfile (file:///C:/Users/Usuario/Desktop/Back-End/19voDesafio-TesteoDeAPI/controllers/infoController.js:47:7)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:346:12)
+[2022-10-27T19:16:58.614] [ERROR] archivoError - TypeError: Cannot read properties of undefined (reading 'email')
+    at getOrden (file:///C:/Users/Usuario/Desktop/Back-End/19voDesafio-TesteoDeAPI/controllers/productsController.js:52:52)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:47:12)
+[2022-10-27T19:17:00.502] [ERROR] archivoError - TypeError: Cannot read properties of undefined (reading 'email')
+    at getOrden (file:///C:/Users/Usuario/Desktop/Back-End/19voDesafio-TesteoDeAPI/controllers/productsController.js:52:52)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:47:12)
+[2022-10-27T19:17:01.019] [ERROR] archivoError - TypeError: Cannot read properties of undefined (reading 'email')
+    at getOrden (file:///C:/Users/Usuario/Desktop/Back-End/19voDesafio-TesteoDeAPI/controllers/productsController.js:52:52)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:47:12)
+[2022-10-27T19:17:01.213] [ERROR] archivoError - TypeError: Cannot read properties of undefined (reading 'email')
+    at getOrden (file:///C:/Users/Usuario/Desktop/Back-End/19voDesafio-TesteoDeAPI/controllers/productsController.js:52:52)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:47:12)
+[2022-10-27T19:17:39.161] [ERROR] archivoError - TypeError: Cannot read properties of undefined (reading 'email')
+    at getOrden (file:///C:/Users/Usuario/Desktop/Back-End/19voDesafio-TesteoDeAPI/controllers/productsController.js:52:52)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:47:12)
+[2022-10-27T19:18:06.165] [ERROR] archivoError - TypeError: Cannot read properties of undefined (reading 'email')
+    at getOrden (file:///C:/Users/Usuario/Desktop/Back-End/19voDesafio-TesteoDeAPI/controllers/productsController.js:53:52)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:47:12)
+[2022-10-27T19:19:40.541] [ERROR] archivoError - ReferenceError: res is not defined
+    at newProducts (file:///C:/Users/Usuario/Desktop/Back-End/19voDesafio-TesteoDeAPI/controllers/productsController.js:25:2)
+    at getOrden (file:///C:/Users/Usuario/Desktop/Back-End/19voDesafio-TesteoDeAPI/controllers/productsController.js:57:23)
+[2022-10-27T19:20:30.628] [ERROR] archivoError - ReferenceError: res is not defined
+    at newProducts (file:///C:/Users/Usuario/Desktop/Back-End/19voDesafio-TesteoDeAPI/controllers/productsController.js:25:2)
+    at getOrden (file:///C:/Users/Usuario/Desktop/Back-End/19voDesafio-TesteoDeAPI/controllers/productsController.js:56:23)
+[2022-10-27T19:20:37.065] [ERROR] archivoError - ReferenceError: res is not defined
+    at newProducts (file:///C:/Users/Usuario/Desktop/Back-End/19voDesafio-TesteoDeAPI/controllers/productsController.js:25:2)
+    at getOrden (file:///C:/Users/Usuario/Desktop/Back-End/19voDesafio-TesteoDeAPI/controllers/productsController.js:56:23)
+[2022-10-27T19:20:58.588] [ERROR] archivoError - ReferenceError: res is not defined
+    at newProducts (file:///C:/Users/Usuario/Desktop/Back-End/19voDesafio-TesteoDeAPI/controllers/productsController.js:25:2)
+    at getOrden (file:///C:/Users/Usuario/Desktop/Back-End/19voDesafio-TesteoDeAPI/controllers/productsController.js:56:23)
+[2022-10-27T19:23:51.402] [ERROR] archivoError - TypeError: Cannot read properties of undefined (reading 'email')
+    at getAllProducts (file:///C:/Users/Usuario/Desktop/Back-End/19voDesafio-TesteoDeAPI/controllers/productsController.js:30:52)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Usuario\Desktop\Back-End\19voDesafio-TesteoDeAPI\node_modules\express\lib\router\index.js:47:12)
