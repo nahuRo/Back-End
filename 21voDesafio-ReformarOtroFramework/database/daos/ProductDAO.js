@@ -1,0 +1,50 @@
+import CustomError from "../clases/CustomError.js";
+import Prod from "../models/prodModel.js";
+
+class ProdDAO {
+	constructor() {
+		this.collection = Prod;
+	}
+
+	async create(object) {
+		try {
+			const item = new this.collection(object);
+			return await item.save();
+		} catch (error) {
+			console.log(error);
+
+			throw new CustomError(500, "create prod");
+		}
+	}
+
+	async getAll() {
+		try {
+			return await this.collection.find();
+		} catch (error) {
+			console.log(error);
+
+			throw new CustomError(500, "getByNameCart cart");
+		}
+	}
+
+	async update(idProd, obj) {
+		try {
+			const upgraded = await this.collection.findOneAndUpdate({ _id: idProd }, obj);
+			return upgraded;
+		} catch (error) {
+			console.log(error);
+
+			throw new CustomError(500, "updateCart");
+		}
+	}
+
+	async deleteById(idProd) {
+		try {
+			return this.collection.findOneAndDelete({ _id: idProd });
+		} catch (error) {
+			console.log(`Hubo un error en - deleteById: ${error}`);
+		}
+	}
+}
+
+export default ProdDAO;
