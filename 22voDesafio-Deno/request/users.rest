@@ -1,0 +1,25 @@
+### lista los user de la db 
+GET  http://localhost:8080/api/user/33
+
+### registro un nuevo usuario
+POST http://localhost:8080/api/user/register
+Content-Type: application/json
+
+{
+    "email": "nuevo@gamil.com",
+    "password": "123",
+    "name": "prueba",
+    "address": "casa 123",
+    "age": 1,
+    "phone": 123456789
+}
+
+### logeo un nuevo usuario
+POST http://localhost:8080/api/user/login
+Content-Type: application/json
+
+{
+    "email": "nuevo@gamil.com",
+    "password": "123"
+}
+
